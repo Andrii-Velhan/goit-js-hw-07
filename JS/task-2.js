@@ -9,7 +9,7 @@ const ingredients = [
   'Приправы',
 ];
 
-const containerUl = document.querySelector('#ingredients');
+//const containerUl = document.querySelector('#ingredients');
 
 // const elements = ingredients.map(option => {
 //   const newItem = document.createElement('li');
@@ -21,6 +21,8 @@ const containerUl = document.querySelector('#ingredients');
 
 // console.log(containerUl);
 // //console.log(elements);
+
+const containerUl = document.querySelector('#ingredients');
 
 const makeElementsLi = options => {
   return options.map(option => {
