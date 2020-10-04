@@ -1,3 +1,5 @@
+console.log(document.querySelector('.task').textContent);
+
 const categoriesItem = document.querySelectorAll('li.item');
 console.log(`В списке ${categoriesItem.length} категории.`);
 
