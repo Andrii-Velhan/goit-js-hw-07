@@ -20,12 +20,12 @@ const images = [
 
 const containerUl = document.querySelector('#gallery');
 
-const makeGalleryElementsLi = ({ url, alt }) => {
+const makeItemGalleryMarkup = ({ url, alt }) => {
   //const { url, alt } = options;
   return `<li class="js-gallery__item"><img class="js-img__item" src="${url}" alt="${alt}"></li>`;
 };
 
-const elements = images.map(makeGalleryElementsLi).join('');
+const elements = images.map(makeItemGalleryMarkup).join('');
 
 console.log(containerUl);
 //console.log(elements);
